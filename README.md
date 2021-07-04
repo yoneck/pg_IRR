@@ -26,3 +26,11 @@ When your data is organized in a way that project is in one record and cash flow
 ### Cash flow data in rows:
 When your data is organized in a way that each year of cashflow is separate record like in examaple below, the usage is as follows:
 'to be updated'
+
+## Precission and search range parameters:
+
+### IRR search range
+By default function searches for IRR in range from -1000% to 1000%. If this range is insufficient for your data you can call IRR function with custom minimum and maximum search range. E.g irr(array[cf1,cf2,cf3,cf4,cf5],-20,20) will extend search range to -2000% 2000%
+
+### calculation precision
+Default precision of IRR is +/- 0.00001. If it is not sufficient you can alter 'prec' variable according to your needs
