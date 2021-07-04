@@ -1,4 +1,4 @@
-create or replace  function public.npv(cf numeric[], rate numeric) returns numeric
+create or replace  function npv(cf numeric[], rate numeric) returns numeric
 language sql as 
 
 $$
@@ -8,7 +8,7 @@ from
 unnest($1) )u
 $$;
 
-create or replace  function public.irr(cf numeric[], minrate numeric=-10.0, maxrate numeric=10.0) returns numeric
+create or replace  function irr(cf numeric[], minrate numeric=-10.0, maxrate numeric=10.0) returns numeric
 language plpgsql as 
 
 $$
