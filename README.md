@@ -21,6 +21,8 @@ Launch [IRR_function_private.sql](IRR_function_private.sql). Functions IRR and N
 
 ### Cash flow data in columns:
 When your data is organized in a way that project is in one record and cash flow data is stored in separate columns like in examaple below, the usage is as follows:
+'to be updated'
 
 ### Cash flow data in rows:
 When your data is organized in a way that each year of cashflow is separate record like in examaple below, the usage is as follows:
+'to be updated'
